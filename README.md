@@ -47,44 +47,6 @@ Any OBR blog can be hosted anywhere. This document provides instructions to inst
 
 Released under the [MIT License](./LICENSE)
 
-## Deploy on Netlify
-Just click the button:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/the-coded-type/open-blog-revolution)
-
-OR:
-* Fork this repository (fork button on the top right corner). GitHub will create a copy of that entire project under your username. You might need to create a GitHub account.
-
-* Create a free account on [Netlify](https://www.netlify.com/). You can log in with your GitHub credentials.
-
-* On Netlify, go to **Projects** select **Add new project / Import an existing project.**
-
-* Click on the **GitHub** icon. Select your newly created repository.
-
-* Every time you modify the blog or its contents, Netlify will automatically update the website.
-
-## Deploy on GitHub Pages
-
-* On the repo page select *Use this template*/*Create a new repository*
-
-* Give a name to your new repository (this is not the blog name, just tthe GitHub repository name)
-
-* Keep the repository visibility to public (you'll need that to deploy on the free GitHub Pages plan, folks will be able to read your code, but they can't alter it.)
-
-* On your repository page click on **⚙️ Settings** 
-
-* Head to **Pages**
-
-* **In Build and Deployement** select as `source` `GitHub Actions`
-
-* You blog deploys at https://<user-name>.github.io/<repo-name>
-
-* Check the status of your deployment in your repo page under **Actions**
-
-* Your first deploy might fail, don't worry, the site will redeploy automatically when you edit the contents, and every 24 hours at 00:00 UTC.
-
-* To trigger a deploy manually on your *Action* page click on *Deploy to GitHub Pages* under *All Workflows* and then *Run worklfow*
-
 ## How to start Blogging
 
 ⚠️ Now that your blog is installed you need to setup a backend that will allow you to write and publish blogs.
@@ -93,7 +55,7 @@ OR:
 
 You can edit and create posts in the GitHub repo directly.
 
-To make it easier for you to locate th right files we've made an `editor` page. You'll find it at 'yoursite/edior'. The links will take you to the various editable/new post sections on GitHub, you'll need to be logged to your GitHub account to access them.
+To make it easier for you to locate th right files we've made an `editor` page. You'll find it at ['yoursite/editor'](https://erikleenv.github.io/not-very-technical-plus-adhd). The links will take you to the various editable/new post sections on GitHub, you'll need to be logged to your GitHub account to access them.
 
 * You can add posts as `.mdx `files in the `/src/content/posts` folder
 * You can add pages as `.mdx `files in the `/src/pages` folder
